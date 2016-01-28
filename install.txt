@@ -1,0 +1,15 @@
+Installation Instructions:
+
+Our project requires the following packages to be installed:
+ - bottle
+ - numpy
+ - Beautiful Soup 3
+ - SQLite version 3.6.12
+ - python 2.6.1
+
+To set up a database, simply run crawler.py with python and it will overwrite the previous database with the current URL list. You can change the contents of the URL list in urls.txt.
+
+To run the server, simply run server.py with python and it will host the web server at localhost:8080. Type the input in the box just as in a search engine  and hit enter or submit. You will be redirected to a new page with the URL list. 
+
+Comments:
+Be sure to run the server after crawler has finished running.
